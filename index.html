@@ -1,16 +1,157 @@
-<!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <title>Imperfect Information Learning Software</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./style.css">
-    </head>
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>論文リスト</title>
+  <meta name="description" content="Robot Learning team's publications and software">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --link: #2563eb;
+      --max: 820px;
+    }
 
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 56px 20px 80px;
+    }
+
+    header {
+      margin-bottom: 40px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 24px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    section {
+      margin-top: 32px;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      margin: 0 0 16px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 8px;
+    }
+
+    ol {
+      margin: 0;
+      padding-left: 1.4rem;
+    }
+
+    li {
+      margin-bottom: 18px;
+    }
+
+    .paper-title {
+      font-weight: 700;
+    }
+
+    .paper-meta {
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
 <body>
-    <section class="page-header">
-        <h1 class="project-name">Software</h1>
-        <h2 class="project-tagline">by Robot Learning Team, RIKEN AIP, and our great collaborators</h2>
+  <main>
+    <header>
+      <h1>Software from Robot Learning Team, RIKEN AIP</h1>
+      <!-- <p class="subtitle">Software from Robot Learning Team, RIKEN AIP</p> -->
+    </header>
+
+    <!-- <section>
+      <h2>Journal Papers</h2>
+      <ol reversed>
+        <li>
+          <span class="paper-title">論文タイトルをここに書く</span><br>
+          <span class="paper-meta">
+            著者名, 雑誌名, 巻(号), ページ, 年.
+          </span><br>
+          <a href="#" target="_blank" rel="noopener">PDF</a>
+          · <a href="#" target="_blank" rel="noopener">DOI</a>
+        </li>
+
+        <li>
+          <span class="paper-title">Another Paper Title</span><br>
+          <span class="paper-meta">
+            Author A, Author B, Journal Name, 2024.
+          </span><br>
+          <a href="#" target="_blank" rel="noopener">Project page</a>
+        </li>
+      </ol>
+    </section> -->
+
+    <section>
+      <h2>Conference Papers</h2>
+      <ol reversed>
+        <li>
+          <span class="paper-title">Rethinking Policy Diversity in Ensemble Policy Gradient in Large-Scale Reinforcement Learning</span><br>
+          <span class="paper-meta">
+            N. Shitanda, M. Omura, T. Harada, T. Osa. In Proceedings of the International Conference on Learning Representations (ICLR), 2026.
+          </span><br>
+          <a href="#" target="_blank" rel="noopener">PDF</a>
+          [ <a href="https://naoki04.github.io/paper-cpo/">website</a>]
+        </li>
+      </ol>
     </section>
 
-<section class="main-content">
+    <!-- <section>
+      <h2>Preprints</h2>
+      <ol reversed>
+        <li>
+          <span class="paper-title">プレプリントタイトルをここに書く</span><br>
+          <span class="paper-meta">
+            著者名, arXiv, 年.
+          </span><br>
+          <a href="#" target="_blank" rel="noopener">arXiv</a>
+        </li>
+      </ol>
+    </section> -->
+
+    <footer>
+      Last updated: 2026-06-08
+    </footer>
+  </main>
+</body>
+</html>
