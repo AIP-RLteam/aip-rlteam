@@ -1,4 +1,4 @@
-## Hi there 👋
+## Robot Learning Team, RIKEN Center for Advanced Intelligence Project
 
 <!--
 **AIP-RLteam/AIP-RLteam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
